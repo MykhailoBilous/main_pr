@@ -16,7 +16,7 @@
     font-style: normal;
 }
 
-img .logo{
+img .logo {
     alignment-baseline: central;
     text-align: top;
     vertical-align: top;
@@ -35,6 +35,7 @@ img .logo{
     background-position: 50% 50%;
     background-repeat: no-repeat;
 }
+
 
 /* IE8- CSS hack */
 
@@ -69,7 +70,6 @@ hr {
     height: 2px;
     clear: both;
 }
-
 
 [class^="icon-"]:before,
 [class*=" icon-"]:before {
@@ -141,31 +141,28 @@ table.skills {
 }
 
 .mask {
-background-color: rgba(255,255,255,.6);
-width: 80% !important;
+    background-color: rgba(255, 255, 255, .6);
+    width: 80% !important;
 }
 
-.black-mask{
-background-color: rgba(0,0,0,.6);
-width: 80% !important;
+.black-mask {
+    background-color: rgba(0, 0, 0, .6);
+    width: 80% !important;
 }
 
-.item{
+.item {
     text-align: center;
 }
 
-
-#carousel-caption{
+#carousel-caption {
     text-align: center;
     vertical-align: middle;
 }
 
-h2.text-white{
+h2.text-white {
     color: white !important;
 }
 
-.prj_m{
+.prj_m {
     margin-bottom: 2%;
 }
-
-
