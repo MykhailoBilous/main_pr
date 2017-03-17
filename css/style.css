@@ -1,0 +1,171 @@
+@font-face {
+    font-family: Neusa-ExtraBold;
+    src: url(Neusa-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: Neusa-Regular;
+    src: url(Neusa-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'fontello';
+    src: url(fonfontello.eot);
+    src: url(fontello.eot) format('embedded-opentype'), url(fontello.woff) format('woff'), url(fontello.ttf) format('truetype'), url(fontello.svg) format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+img .logo{
+    alignment-baseline: central;
+    text-align: top;
+    vertical-align: top;
+}
+
+#gradient {
+    background-color: #1b6d80;
+    /* IE9, iOS 3.2+ */
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxsaW5lYXJHcmFkaWVudCBpZD0idnNnZyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPjxzdG9wIHN0b3AtY29sb3I9IiMwNTM5NDIiIHN0b3Atb3BhY2l0eT0iMSIgb2Zmc2V0PSIwIi8+PHN0b3Agc3RvcC1jb2xvcj0iIzMwYTFiZSIgc3RvcC1vcGFjaXR5PSIxIiBvZmZzZXQ9IjAuODIiLz48c3RvcCBzdG9wLWNvbG9yPSIjMDUzOTQyIiBzdG9wLW9wYWNpdHk9IjEiIG9mZnNldD0iMC44MTk1ODc2Mjg4NjU5Nzk0Ii8+PHN0b3Agc3RvcC1jb2xvcj0iIzI3OGFhMyIgc3RvcC1vcGFjaXR5PSIxIiBvZmZzZXQ9IjEiLz48L2xpbmVhckdyYWRpZW50PjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjdnNnZykiIC8+PC9zdmc+);
+    background-image: -webkit-gradient(linear, 0% 0%, 100% 100%, color-stop(0, rgb(5, 57, 66)), color-stop(0.82, rgb(48, 161, 190)), color-stop(0.82, rgb(5, 57, 66)), color-stop(1, rgb(39, 138, 163)));
+    /* Android 2.3 */
+    background-image: -webkit-repeating-linear-gradient(top left, rgb(5, 57, 66) 0%, rgb(48, 161, 190) 82%);
+    /* IE10+ */
+    background-image: repeating-linear-gradient(to bottom right, rgb(5, 57, 66) 0%, rgb(48, 161, 190) 82%);
+    background-image: -ms-repeating-linear-gradient(top left, rgb(5, 57, 66) 0%, rgb(48, 161, 190) 82%);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+/* IE8- CSS hack */
+
+.sec {
+    color: #E6EAEB;
+    width: 80;
+    vertical-align: middle;
+}
+
+#head_tx {
+    text-align: left;
+    color: white;
+}
+
+table.text {
+    width: 140%;
+    border-spacing: 0px;
+}
+
+table.text td {
+    vertical-align: top;
+}
+
+#rightcol {
+    text-align: right;
+}
+
+hr {
+    color: #839DA1;
+    background-color: #839DA1;
+    border: 0px none;
+    height: 2px;
+    clear: both;
+}
+
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+    font-family: "fontello";
+    font-style: normal;
+    font-weight: normal;
+}
+
+.icon-github:before {
+    content: '\e804';
+    color: black;
+}
+
+.icon-linkedin:before {
+    content: '\e802';
+    color: black;
+}
+
+.icon-facebook:before {
+    content: '\e801';
+    color: black;
+}
+
+.center {
+    text-align: center;
+    font-family: Neusa-Regular;
+    color: black;
+}
+
+table.skills {
+    text-align: center;
+}
+
+.navbar {
+    margin-bottom: 0;
+    background-color: rgb(27, 109, 128, 7);
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 1px;
+    border-radius: 0;
+    font-family: Neusa-Regular, Neusa-ExtraBold;
+    text-align: right;
+}
+
+.navbar li a,
+.navbar .navbar-brand {
+    color: #fff !important;
+    text-align: center;
+    background-color: #fff
+}
+
+.navbar-nav li a:hover,
+.navbar-nav li.active a {
+    color: #fff !important;
+    background-color: #1b6d80 !important;
+    text-align: center;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+    text-align: center;
+}
+
+#nav {
+    text-align: center;
+}
+
+.mask {
+background-color: rgba(255,255,255,.6);
+width: 80% !important;
+}
+
+.black-mask{
+background-color: rgba(0,0,0,.6);
+width: 80% !important;
+}
+
+.item{
+    text-align: center;
+}
+
+
+#carousel-caption{
+    text-align: center;
+    vertical-align: middle;
+}
+
+h2.text-white{
+    color: white !important;
+}
+
+.prj_m{
+    margin-bottom: 2%;
+}
+
+
